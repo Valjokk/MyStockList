@@ -10,6 +10,8 @@
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container" align="left">
             <div id="tradingview_7ba58"></div>
+            <div id="tradingview_7ba59"></div>
+
             <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
             <script type="text/javascript">
                 new TradingView.widget(
@@ -17,7 +19,7 @@
                     "width": 980,
                     "height": 300,
                     "symbol": "XETR:BAYN",
-                    "interval": "60",
+                    "interval": "D",
                     "timezone": "Europe/Riga",
                     "theme": "light",
                     "style": "2",
@@ -26,6 +28,23 @@
                     "enable_publishing": false,
                     "allow_symbol_change": true,
                     "container_id": "tradingview_7ba58"
+                });
+            </script>
+            <script type="text/javascript">
+                new TradingView.widget(
+                {
+                    "width": 980,
+                    "height": 300,
+                    "symbol": "XETR:BAYN",
+                    "interval": "Y",
+                    "timezone": "Europe/Riga",
+                    "theme": "light",
+                    "style": "2",
+                    "locale": "en",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": true,
+                    "container_id": "tradingview_7ba59"
                 });
             </script>
         </div>
