@@ -48,7 +48,7 @@ new TradingView.widget(
         "toolbar_bg": "#f1f3f6",
         "enable_publishing": false,
         "hide_top_toolbar": true,
-        "container_id": "tradingview_1"
+        "container_id": "tradingview_3"
     });
     
     new TradingView.widget(
@@ -64,7 +64,7 @@ new TradingView.widget(
         "toolbar_bg": "#f1f3f6",
         "enable_publishing": false,
         "hide_top_toolbar": true,
-        "container_id": "tradingview_2"
+        "container_id": "tradingview_4"
     });
 
 /*
