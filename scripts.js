@@ -20,18 +20,18 @@ new TradingView.widget(
 
 new TradingView.widget(
 {
-                    "width": 580,
-                    "height": 300,
-                    "symbol": "XETR:BAYN",
-                    "interval": "M",
-                    "timezone": "Europe/Riga",
-                    "theme": "light",
-                    "style": "2",
-                    "locale": "en",
-                    "toolbar_bg": "#f1f3f6",
-                    "enable_publishing": false,
-                    "allow_symbol_change": true,
-                    "container_id": "tradingview_7ba59"
+    "width": 580,
+    "height": 300,
+    "symbol": "XETR:BAYN",
+    "interval": "M",
+    "timezone": "Europe/Riga",
+    "theme": "light",
+    "style": "2",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "allow_symbol_change": true,
+    "container_id": "tradingview_7ba59"
 });
 
 /*
