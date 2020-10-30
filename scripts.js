@@ -1,10 +1,10 @@
-// Bayer 
 // Advanced chart
 // https://www.tradingview.com/widget/advanced-chart/
 
+// Bayer 
 new TradingView.widget(
 {
-    "width": 580,
+    "width": 700,
     "height": 300,
     "symbol": "XETR:BAYN",
     "interval": "D",
@@ -15,12 +15,12 @@ new TradingView.widget(
     "toolbar_bg": "#f1f3f6",
     "enable_publishing": false,
     "hide_top_toolbar": true,
-    "container_id": "tradingview_7ba58"
+    "container_id": "tradingview_1"
 });
 
 new TradingView.widget(
 {
-    "width": 580,
+    "width": 700,
     "height": 300,
     "symbol": "XETR:BAYN",
     "interval": "M",
@@ -31,8 +31,41 @@ new TradingView.widget(
     "toolbar_bg": "#f1f3f6",
     "enable_publishing": false,
     "hide_top_toolbar": true,
-    "container_id": "tradingview_7ba59"
+    "container_id": "tradingview_2"
 });
+
+// BASF SE
+new TradingView.widget(
+    {
+        "width": 700,
+        "height": 300,
+        "symbol": "XETR:BAS",
+        "interval": "D",
+        "timezone": "Europe/Riga",
+        "theme": "light",
+        "style": "2",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_top_toolbar": true,
+        "container_id": "tradingview_1"
+    });
+    
+    new TradingView.widget(
+    {
+        "width": 700,
+        "height": 300,
+        "symbol": "XETR:BAS",
+        "interval": "M",
+        "timezone": "Europe/Riga",
+        "theme": "light",
+        "style": "2",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_top_toolbar": true,
+        "container_id": "tradingview_2"
+    });
 
 /*
  Stock only
