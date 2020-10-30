@@ -14,7 +14,7 @@ new TradingView.widget(
     "locale": "en",
     "toolbar_bg": "#f1f3f6",
     "enable_publishing": false,
-    "allow_symbol_change": true,
+    "hide_top_toolbar": true,
     "container_id": "tradingview_7ba58"
 });
 
@@ -30,7 +30,7 @@ new TradingView.widget(
     "locale": "en",
     "toolbar_bg": "#f1f3f6",
     "enable_publishing": false,
-    "allow_symbol_change": true,
+    "hide_top_toolbar": true,
     "container_id": "tradingview_7ba59"
 });
 
