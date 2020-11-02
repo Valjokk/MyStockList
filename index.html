@@ -8,9 +8,13 @@
     <body>
         <!-- Tab links -->
         <div class="tab">
-            <button class="tablinks" onclick="openGroup(event, 'Germany')">Germany</button>
+            <button class="tablinks" onclick="openGroup(event, 'Germany')" id="defaultOpen">Germany</button>
             <button class="tablinks" onclick="openGroup(event, 'Latvia')">Latvia</button>
             <button class="tablinks" onclick="openGroup(event, 'Air')">Air</button>
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
         </div>
 
         <!-- Tab content -->
@@ -18,8 +22,9 @@
             <h3>Germany</h3>
             <div class="tradingview-widget-container" style="text-align: center;">
                 <p>BAYER AG</p>
-                <div id="tradingview_1" style="display: inline-block;"></div>
-                <div id="tradingview_2" style="display: inline-block;"></div>
+                <div id="tradingview_Bayer1" style="display: inline-block;"></div>
+                <div id="tradingview_Bayer2" style="display: inline-block;"></div>
+                <div id="tradingview_Bayer3" style="display: inline-block;"></div>
                 <br>
                 <p>BASF SE</p>
                 <div id="tradingview_3" style="display: inline-block;"></div>
