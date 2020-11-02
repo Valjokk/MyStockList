@@ -84,7 +84,7 @@ new TradingView.MediumWidget(
 
 new TradingView.widget(
 {
-    "width": 700,
+    "width": 500,
     "height": 300,
     "symbol": "XETR:BAS",
     "interval": "D",
@@ -100,7 +100,7 @@ new TradingView.widget(
     
 new TradingView.widget(
 {
-    "width": 700,
+    "width": 500,
     "height": 300,
     "symbol": "XETR:BAS",
     "interval": "M",
