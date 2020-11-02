@@ -66,7 +66,7 @@ new TradingView.MediumWidget(
     "symbols": [
     [
         "Bayer AG",
-        "XETR:BAYN|1M"
+        "XETR:BAS|1M"
     ]],
     "chartOnly": false,
     "width": 500,
