@@ -6,6 +6,7 @@
 
 // Germany
 // Bayer
+/*
 new TradingView.MediumWidget(
 {
     "symbols": [
@@ -27,10 +28,11 @@ new TradingView.MediumWidget(
     "autosize": false,
     "container_id": "tradingview_Bayer1"
 });
+*/
 
 new TradingView.widget(
 {
-    "width": 500,
+    "width": 750,
     "height": 300,
     "symbol": "XETR:BAYN",
     "interval": "D",
@@ -46,7 +48,7 @@ new TradingView.widget(
 
 new TradingView.widget(
 {
-    "width": 500,
+    "width": 750,
     "height": 300,
     "symbol": "XETR:BAYN",
     "interval": "M",
@@ -61,30 +63,9 @@ new TradingView.widget(
 });
 
 // BASF SE
-new TradingView.MediumWidget(
-{
-    "symbols": [
-    [
-        "Bayer AG",
-        "XETR:BAS|1M"
-    ]],
-    "chartOnly": false,
-    "width": 500,
-    "height": 300,
-    "locale": "en",
-    "colorTheme": "light",
-    "gridLineColor": "#F0F3FA",
-    "trendLineColor": "#2196F3",
-    "fontColor": "#787B86",
-    "underLineColor": "#E3F2FD",
-    "isTransparent": false,
-    "autosize": false,
-    "container_id": "tradingview_Basf1"
-});
-
 new TradingView.widget(
 {
-    "width": 500,
+    "width": 750,
     "height": 300,
     "symbol": "XETR:BAS",
     "interval": "D",
@@ -100,7 +81,7 @@ new TradingView.widget(
     
 new TradingView.widget(
 {
-    "width": 500,
+    "width": 750,
     "height": 300,
     "symbol": "XETR:BAS",
     "interval": "M",
